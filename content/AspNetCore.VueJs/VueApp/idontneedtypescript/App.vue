@@ -37,8 +37,9 @@
                 </div>
             </div>
         </div>
+		<!-- There was a notifications tag here 
         <notifications group="global" />
-       
+		-->
     </div> 
 
 </template>

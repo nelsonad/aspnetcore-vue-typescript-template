@@ -52,7 +52,9 @@
                 </table>
             </div>
         </div>
+		<!-- There was a notifications tag here 
         <notifications group="characters" />
+		-->
     </div>
 </template>
 
@@ -61,7 +63,7 @@
 import { Vue, Component } from 'vue-property-decorator'
 import { mapGetters } from 'vuex'
 
-import { Notification } from "@/common/services/notificationService";
+//import { Notification } from "@/common/services/notificationService";
 
 @Component({
     name: 'Characters',
@@ -82,11 +84,11 @@ export default class Characters extends Vue {
         this.$store.dispatch('getCharacterById', this.characterId)
             .then(result => {
 
-                Notification.success(this, 'Data fetched successfully!')
+                //Notification.success(this, 'Data fetched successfully!')
 
             }).catch(error => {
 
-                Notification.error(this, 'Error fetching data!')
+                //Notification.error(this, 'Error fetching data!')
 
             })
 

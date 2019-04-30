@@ -46,8 +46,9 @@ Y
             </div>
 
         </div>
+		<!-- There was a notifications tag here 
         <notifications group="libraries" />
-
+		-->
     </div>
 </template>
 
