@@ -13,7 +13,8 @@ Y
                 <div class="column is-4">
                     <div class="field">
                         <label class="label has-text-grey-dark">Dropdown</label>
-                        <multiselect placeholder="Pick notification"
+						There was a multiselect here
+                        <!--<multiselect placeholder="Pick notification"
                                      :value="value"
                                      :options="options"
                                      :multiple="false"
@@ -21,15 +22,16 @@ Y
                                      :allow-empty="false"
                                      :max-height="150"
                                      :max="3"
-                                     @select="onSelect"></multiselect>
+                                     @select="onSelect"></multiselect>-->
                     </div>
                 </div>
                 <div class="column is-4">
                     <div class="field">
                         <label class="label has-text-grey-dark">Date picker</label>
                         <div class="control">
-                            <flat-pickr class="input"
-                                        v-model="date"></flat-pickr>
+							There was a date picker here
+                            <!--<flat-pickr class="input"
+                                        v-model="date"></flat-pickr>-->
                         </div>
                     </div>
                 </div>
@@ -52,18 +54,9 @@ Y
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator'
 
-import Multiselect from 'vue-multiselect'
-import Notifications from 'vue-notification'
-
-import flatPickr from 'vue-flatpickr-component'
-
-Vue.use(Notifications)
-
 @Component({
     name: 'ThirdPartyLibraries',
     components: {
-        flatPickr,
-        Multiselect
     }
 })
 export default class ThirdPartyLibraries extends Vue {
@@ -72,17 +65,15 @@ export default class ThirdPartyLibraries extends Vue {
     options: Array<string> = ['Success', 'Warn', 'Error']
 
     onSelect(value: string) {
-        this.$notify({
-            group: 'libraries',
-            title: value,
-            type: value.toLowerCase(),
-            text: value + ' notification'
-        })
+        //this.$notify({
+        //    group: 'libraries',
+        //    title: value,
+        //    type: value.toLowerCase(),
+        //    text: value + ' notification'
+        //})
     }
 }
 </script>
 
 <style lang="scss" scoped>
-@import '~flatpickr/dist/flatpickr.css';
-@import '~flatpickr/dist/themes/airbnb.css';
 </style>

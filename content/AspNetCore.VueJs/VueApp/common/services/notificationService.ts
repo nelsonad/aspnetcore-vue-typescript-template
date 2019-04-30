@@ -6,13 +6,13 @@ export class Notification {
      * @param {String} message - Message which to display on Notification
      */
     static success(vueInstance: any, message: string) {
-        vueInstance.$notify({
-            group: 'global',
-            type: 'success',
-            title: 'Success',
-            text: message,
-            duration: 3500
-        })
+        //vueInstance.$notify({
+        //    group: 'global',
+        //    type: 'success',
+        //    title: 'Success',
+        //    text: message,
+        //    duration: 3500
+        //})
     }
 
     /**
@@ -22,13 +22,13 @@ export class Notification {
      * @param {String} message - Message which to display on Notification
      */
     static error(vueInstance: any, message: string) {
-        vueInstance.$notify({
-            group: 'global',
-            type: 'error',
-            title: 'Something went wrong',
-            text: message,
-            duration: 5000
-        })
+        //vueInstance.$notify({
+        //    group: 'global',
+        //    type: 'error',
+        //    title: 'Something went wrong',
+        //    text: message,
+        //    duration: 5000
+        //})
     }
 
     /**
@@ -38,12 +38,12 @@ export class Notification {
      * @param {String} message - Message which to display on Notification
      */
     static warning(vueInstance: any, message: string) {
-        vueInstance.$notify({
-            group: 'global',
-            type: 'warn',
-            title: 'Something went wrong',
-            text: message,
-            duration: 5000
-        })
+        //vueInstance.$notify({
+        //    group: 'global',
+        //    type: 'warn',
+        //    title: 'Something went wrong',
+        //    text: message,
+        //    duration: 5000
+        //})
     }
 }

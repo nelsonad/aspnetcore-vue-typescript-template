@@ -35,10 +35,6 @@
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator'
 
-import Notifications from 'vue-notification'
-
-Vue.use(Notifications)
-
 @Component({
     name: 'App'
 })
