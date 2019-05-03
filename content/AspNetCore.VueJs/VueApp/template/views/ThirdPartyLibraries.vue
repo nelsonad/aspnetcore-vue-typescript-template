@@ -29,9 +29,10 @@ Y
                     <div class="field">
                         <label class="label has-text-grey-dark">Date picker</label>
                         <div class="control">
-							There was a date picker here
-                            <!--<flat-pickr class="input"
-                                        v-model="date"></flat-pickr>-->
+                            <b-datepicker
+                                placeholder="Click to select..."
+                                icon="calendar-today">
+                            </b-datepicker>
                         </div>
                     </div>
                 </div>

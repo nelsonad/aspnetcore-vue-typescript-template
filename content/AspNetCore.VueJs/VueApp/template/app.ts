@@ -1,9 +1,11 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import Buefy from 'buefy'
 
 Vue.config.performance = true
 
 Vue.use(VueRouter)
+Vue.use(Buefy)
 
 import store from './store/store'
 import { router } from './router/router'
