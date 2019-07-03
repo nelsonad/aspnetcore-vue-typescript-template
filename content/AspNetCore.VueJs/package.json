@@ -14,7 +14,7 @@
   "dependencies": {
     "@mdi/font": "^3.6.95",
     "axios": "0.18.0",
-    "buefy": "0.7.5",
+    "buefy": "0.7.8",
     "bulma": "0.7.5",
     "bulmaswatch": "0.7.2",
     "vue": "2.6.10",
@@ -38,7 +38,7 @@
     "babel-polyfill": "6.26.0",
     "babel-preset-env": "1.7.0",
     "babel-preset-stage-2": "6.24.1",
-    "caniuse-lite": "^1.0.30000965",    
+    "caniuse-lite": "^1.0.30000965",
     "clean-webpack-plugin": "2.0.2",
     "compression-webpack-plugin": "2.0.0",
     "css-loader": "2.1.0",
